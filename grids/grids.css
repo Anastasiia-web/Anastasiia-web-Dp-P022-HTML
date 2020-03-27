@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    max-width: 100vw;
+    min-height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    background-color:whitesmoke;
+    font-size: larger;
+}
+.container {
+    display: grid;
+    width: 95vw;
+    height: 500px;
+    grid-template-columns: 200px 1.5fr 1fr 0.5fr 200px;
+    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+    background-color: rgb(32, 30, 30);
+    grid-gap: 1px;
+}
+header {
+    grid-area: 1 / 1 / 1 / 6;
+    background-color: rgb(220, 185, 252);
+}
+footer {
+    grid-area: 5 / 1 / 5 / 6;
+    background-color: rgb(220, 185, 252);
+}
+.first-column {
+    grid-area: 2 / 1 / 5 / 1;
+    background-color: rgb(147, 224, 248);
+}
+.third-column {
+    grid-area: 2 / 5 / 5 / 5;
+    background-color: rgb(147, 224, 248);
+}
+.inner-1 {
+    grid-area: 2 / 2 / 4 / 2;
+    background-color: rgb(247, 248, 195);
+}
+.inner-2 {
+    grid-row-start: 2;
+    background-color: rgb(252, 215, 240);
+}
+.inner-3 {
+    grid-column-start: 4;
+    background-color: rgb(211, 244, 247);
+}
+.inner-4 {
+    grid-area: 3 / 3 / 3 / 5;
+    background-color: rgb(245, 218, 177);
+}
+.inner-5 {
+    grid-area: 4 / 2 / 5 / 5;
+    background-color: rgb(175, 179, 175);
+}   
+header, footer, .third-column, .first-column, .inner-1, .inner-2, .inner-3, .inner-4, .inner-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
