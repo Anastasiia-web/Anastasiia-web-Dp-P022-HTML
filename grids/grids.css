@@ -53,7 +53,7 @@ footer {
     grid-area: 4 / 2 / 5 / 5;
     background-color: rgb(175, 179, 175);
 }   
-header, footer, .third-column, .first-column, .inner-1, .inner-2, .inner-3, .inner-4, .inner-5 {
+header, .box, footer {
     display: flex;
     justify-content: center;
     align-items: center;
