@@ -43,6 +43,7 @@ footer {
 .inner-3 {
     grid-column-start: 4;
     background-color: rgb(211, 244, 247);
+    color: red;
 }
 .inner-4 {
     grid-area: 3 / 3 / 3 / 5;
